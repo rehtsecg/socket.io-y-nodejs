@@ -1,4 +1,4 @@
-
+// curso final 
 var socket = io.connect('http://localhost:6677', {'forceNew': true});
 
 socket.on('messages', function(data) {
